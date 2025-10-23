@@ -1,0 +1,74 @@
+/* Resets page margins and sets a nice clean base font and background */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f0f0f;
+  color: white;
+  text-align: center;
+}
+
+/* Styles the top part of the page (header) */
+header {
+  padding: 60px 20px;
+  background: linear-gradient(90deg, #8a2be2, #ff1493);
+  /* Adds a colorful gradient background (purple → pink) */
+}
+
+/* Makes the main name text large */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Adds spacing around the project section */
+.projects {
+  padding: 40px 20px;
+}
+
+/* Styles the “card” box where the project details are shown */
+.card {
+  background: #1e1e1e;
+  border-radius: 16px; /* Makes corners round */
+  padding: 20px;
+  max-width: 350px; /* Keeps it narrow and centered */
+  margin: 20px auto; /* Centers the box */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  /* Adds a soft shadow for a modern 3D look */
+}
+
+/* Controls how big the image inside the card is */
+.card img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+/* Styles the title inside the card */
+.card h3 {
+  margin: 10px 0;
+  color: #ff69b4; /* Pink color for highlight */
+}
+
+/* Styles the “View Demo” link like a button */
+.card a {
+  text-decoration: none; /* Removes underline */
+  background: #8a2be2; /* Purple background */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block; /* So padding works properly */
+  margin-top: 10px;
+  transition: 0.3s; /* Smooth hover animation */
+}
+
+/* Changes color when you hover the button */
+.card a:hover {
+  background: #ff1493; /* Turns pink */
+}
+
+/* Styles the bottom section of the page */
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background: #111; /* Slightly lighter black background */
+  font-size: 0.9rem;
+}
